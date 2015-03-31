@@ -1,0 +1,564 @@
+/* CSS Resets */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+
+
+/* ==================================================================================================================== */
+/* ! The 1140px Grid V2 by Andy Taylor \ http://cssgrid.net \ http://www.twitter.com/andytlr \ http://www.andytlr.com   */
+/* ==================================================================================================================== */
+
+#header{
+color: gray;
+background-color: white;
+height: 200px;
+width: 1280px;
+position:relative;
+z-index:10;
+}
+
+#logo{
+background-color: white;
+left: 50px;
+float: left;
+height: 145px;
+width: 219px;
+position: relative;
+background-image: url("../Images/logo header.png");
+}
+
+#menu{
+background-color: white;
+color: #rgb;
+float: right;
+right: 50px;
+height: 100px;
+width: 400px;
+position: relative;
+top: 30px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+font-size: 25px;
+}
+
+
+#middleOne{
+color:black;
+background-color: gray;
+height: 406px;
+width: 1280px;
+position: relative;
+}
+
+#middleOneCon{
+color:black;
+background-color: white;
+height: 250px;
+width: 1280px;
+position: relative;
+}
+#socialmedia{
+height: 200px;
+width: 400px;
+background-color: white;
+position: relative;
+float: left;
+left: 180px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+font-size: 15px;
+top: 20px;
+}
+
+#follow{
+height:20px;
+width: 200px;
+position: relative;
+top: 2px;
+float: left;
+left: 100px;
+background-color: red;
+}
+#facebook{
+height: 100px;
+width: 100px;
+position:absolute;
+float: left;
+left: 35px;
+top:70px;
+background-image: url("../Images/facebookcontact.png");
+}
+
+#twitter{
+height: 110px;
+width: 110px;
+position:absolute;
+float: left;
+left: 145px;
+top:65px;
+background-image: url("../Images/twittercontact.png");
+}
+
+#instagram{
+height: 100px;
+width: 100px;
+position:absolute;
+float: right;
+right: 35px;
+top:70px;
+background-image: url("../Images/instagramcontact.png");
+}
+
+#phoneetc{
+height: 200px;
+width: 400px;
+background-color: white;
+position: relative;
+float: right;
+right: 180px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+font-size: 15px;
+top: 20px;
+}
+#video{
+background-color: gray;
+height: 385px;
+width: 600px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+float: left;
+left: 50px;
+position: relative;
+top: 8px;
+}
+
+#viddes{
+background-color: gray;
+height: 300px;
+width: 400px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+float: right;
+right: 100px;
+position: relative;
+top: 50px;
+}
+
+#productpicture{
+background-color: gray;
+height: 285px;
+width: 400px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+float: left;
+left: 90px;
+position: relative;
+top: 60px;
+}
+
+#productdescription{
+background-color: gray;
+height: 300px;
+width: 600px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+float: right;
+right: 100px;
+position: relative;
+top: 50px;
+}
+
+#middleTwo{
+color: red;
+background-color: rgba;
+height: 250px;
+width: 1280px;
+position: relative;
+}
+
+#features1
+{height: 200px;
+width: 400px;
+background-color: white;
+position: relative;
+float: left;
+left: 15px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+font-size: 15px;
+top: 20px;
+}
+
+#features2
+{height: 200px;
+width: 400px;
+background-color: white;
+position: relative;
+float: left;
+left: 33px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+font-size: 15px;
+top: 20px;
+}
+
+#features3
+{height: 200px;
+width: 400px;
+background-color: white;
+position: relative;
+float: right;
+right: 15px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+font-size: 15px;
+top: 20px;
+}
+
+#middleTwoCon{
+color: red;
+background-color: #F1F1F1;
+height: 250px;
+width: 1280px;
+position: relative;
+}
+#middleThree{
+color: red;
+background-color: #F1F1F1;
+height: 250px;
+width: 1280px;
+position: relative;
+}
+
+#signup{
+height: 200px;
+width: 400px;
+background-color: #F1F1F1;
+position: relative;
+float: left;
+left: 40px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+font-size: 15px;
+top: 20px;
+}
+
+#login2{
+height: 200px;
+width: 400px;
+background-color: #F1F1F1;
+position: relative;
+float: left;
+left: 60px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+font-size: 15px;
+top: 20px;
+}
+
+#problems{
+height: 200px;
+width: 300px;
+background-color: #F1F1F1;
+position: relative;
+float: right;
+right: 40px;
+border: 2px solid #ff0000;
+border-radius: 5px;
+font-size: 15px;
+top: 20px;
+}
+
+
+
+
+#footer{
+color:red;
+background-color: black;
+height:115px;
+width: 1280px;
+position: relative;
+}
+
+#footerlogo{
+color:black;
+height:66px;
+width: 100px;
+float: left;
+left: 30px;
+background-image: url("../Images/logo footer.png");
+position: relative;
+bottom: 95px;
+}
+
+#fbicon{
+height:30px;
+width: 30px;
+position: relative;
+float: right;
+right: 5px;
+bottom: 85px;
+background-image: url("../Images/fbicon.png");
+cursor: pointer;
+}
+
+#twittericon{
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 15px;
+bottom: 85px;
+background-image: url("../Images/twittericon.png");
+cursor: pointer;
+}
+
+#instagramicon{
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 25px;
+bottom: 85px;
+background-image: url("../Images/instagramicon.png");
+cursor: pointer;
+}
+
+#mapicon{
+height: 30px;
+width: 20px;
+position: relative;
+float: right;
+right: 35px;
+bottom: 85px;
+background-image: url("../Images/mapicon.png");
+cursor: pointer;
+}
+
+#mailicon{
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 45px;
+bottom: 85px;
+background-image: url("../Images/mailicon.png");
+cursor: pointer;
+}
+
+#questionsicon {
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 55px;
+bottom: 85px;
+background-image: url("../Images/questionmarkicon.png");
+cursor: pointer;
+}
+
+#phoneicon {
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 65px;
+bottom: 85px;
+background-image: url("../Images/phoneicon.png");
+cursor: pointer;
+}
+
+#loginicon {
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 75px;
+bottom: 85px;
+background-image: url("../Images/loginicon.png");
+cursor: pointer;
+}
+
+
+#paypalicon{
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 125px;
+bottom: 85px;
+background-image: url("../Images/paypalicon.png");
+cursor: pointer;
+}
+
+#mastercardicon {
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 135px;
+bottom: 85px;
+background-image: url("../Images/mastercardicon.png");
+cursor: pointer;
+}
+
+#visaicon {
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 145px;
+bottom: 85px;
+background-image: url("../Images/visaicon.png");
+cursor: pointer;
+}
+
+#shoppingicon {
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 155px;
+bottom: 85px;
+background-image: url("../Images/shoppingcarticon.png");
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.row {
+width: 100%;
+max-width: 2080px;
+min-width: 755px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+margin-right: 3.8%;
+float: left;
+min-height: 1px;
+}
+
+.row .onecol {
+width: 4.85%;
+}
+
+.row .twocol {
+width: 13.45%;
+}
+
+.row .threecol {
+width: 22.05%;
+}
+
+.row .fourcol {
+width: 30.75%;
+}
+
+.row .fivecol {
+width: 39.45%;
+}
+
+.row .sixcol {
+width: 48%;
+}
+
+.row .sevencol {
+width: 56.75%;
+}
+
+.row .eightcol {
+width: 65.4%;
+}
+
+.row .ninecol {
+width: 74.05%;
+}
+
+.row .tencol {
+width: 82.7%;
+}
+
+.row .elevencol {
+width: 91.35%;
+}
+
+.row .twelvecol {
+width: 100%;
+float: left;
+}
+
+.last {
+margin-right: 0px;
+}
+
+img, object, embed {
+max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+
+	body {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	}
+	
+	}
+
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+	font-size: 16px;
+	-webkit-text-size-adjust: none;
+	}
+	
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+}
