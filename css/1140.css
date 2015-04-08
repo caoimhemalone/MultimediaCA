@@ -23,7 +23,6 @@ float: left;
 height: 145px;
 width: 219px;
 position: relative;
-background-image: url("../Images/logo header.png");
 }
 
 #menu{
@@ -285,7 +284,6 @@ height:66px;
 width: 100px;
 float: left;
 left: 30px;
-background-image: url("../Images/logo footer.png");
 position: relative;
 bottom: 95px;
 }
@@ -297,7 +295,6 @@ position: relative;
 float: right;
 right: 5px;
 bottom: 85px;
-background-image: url("../Images/fbicon.png");
 cursor: pointer;
 }
 
@@ -308,7 +305,6 @@ position: relative;
 float: right;
 right: 15px;
 bottom: 85px;
-background-image: url("../Images/twittericon.png");
 cursor: pointer;
 }
 
@@ -319,7 +315,6 @@ position: relative;
 float: right;
 right: 25px;
 bottom: 85px;
-background-image: url("../Images/instagramicon.png");
 cursor: pointer;
 }
 
@@ -386,7 +381,6 @@ position: relative;
 float: right;
 right: 125px;
 bottom: 85px;
-background-image: url("../Images/paypalicon.png");
 cursor: pointer;
 }
 
@@ -397,7 +391,6 @@ position: relative;
 float: right;
 right: 135px;
 bottom: 85px;
-background-image: url("../Images/mastercardicon.png");
 cursor: pointer;
 }
 
@@ -408,7 +401,6 @@ position: relative;
 float: right;
 right: 145px;
 bottom: 85px;
-background-image: url("../Images/visaicon.png");
 cursor: pointer;
 }
 
@@ -419,7 +411,6 @@ position: relative;
 float: right;
 right: 155px;
 bottom: 85px;
-
 cursor: pointer;
 }
 
