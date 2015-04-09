@@ -34,8 +34,6 @@ height: 100px;
 width: 400px;
 position: relative;
 top: 30px;
-border: 2px solid #ff0000;
-border-radius: 5px;
 font-size: 25px;
 }
 
@@ -117,19 +115,19 @@ top: 20px;
 #video{
 background-color: gray;
 min-height: 285px;
-min-width: 200px;
+min-width: 600px;
 border: 2px solid #ff0000;
 border-radius: 5px;
 float: left;
 left: 50px;
 position: relative;
-top: 8px;
+top: 20px;
 }
 
 #viddes{
 background-color: gray;
 min-height: 200px;
-min-width: 200px;
+min-width: 350px;
 border: 2px solid #ff0000;
 border-radius: 5px;
 float: right;
@@ -419,7 +417,10 @@ cursor: pointer;
 }
 
 
-
+a:hover{
+color: red !important;
+text-shadow: 1px 1px black !important;
+}
 
 
 
