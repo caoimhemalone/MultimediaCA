@@ -43,8 +43,8 @@ font-size: 25px;
 #middleOne{
 color:black;
 background-color: gray;
-height: 406px;
-width: 1280px;
+min-height: 406px;
+min-width: 1280px;
 position: relative;
 }
 
@@ -62,15 +62,15 @@ background-color: white;
 position: relative;
 float: left;
 left: 180px;
-border: 2px solid #ff0000;
-border-radius: 5px;
-font-size: 15px;
+font-size: 20px;
 top: 20px;
+color: black;
+font-family: Charcoal;
 }
 
 #follow{
 height:20px;
-width: 200px;
+width: 300px;
 position: relative;
 top: 2px;
 float: left;
@@ -83,7 +83,6 @@ position:absolute;
 float: left;
 left: 35px;
 top:70px;
-background-image: url("../Images/facebookcontact.png");
 }
 
 #twitter{
@@ -93,7 +92,6 @@ position:absolute;
 float: left;
 left: 145px;
 top:65px;
-background-image: url("../Images/twittercontact.png");
 }
 
 #instagram{
@@ -103,7 +101,6 @@ position:absolute;
 float: right;
 right: 35px;
 top:70px;
-background-image: url("../Images/instagramcontact.png");
 }
 
 #phoneetc{
@@ -113,15 +110,14 @@ background-color: white;
 position: relative;
 float: right;
 right: 180px;
-border: 2px solid #ff0000;
-border-radius: 5px;
-font-size: 15px;
+font-size: 20px;
+font-family: Charcoal;
 top: 20px;
 }
 #video{
 background-color: gray;
-height: 385px;
-width: 600px;
+min-height: 285px;
+min-width: 200px;
 border: 2px solid #ff0000;
 border-radius: 5px;
 float: left;
@@ -132,8 +128,8 @@ top: 8px;
 
 #viddes{
 background-color: gray;
-height: 300px;
-width: 400px;
+min-height: 200px;
+min-width: 200px;
 border: 2px solid #ff0000;
 border-radius: 5px;
 float: right;
@@ -216,9 +212,25 @@ top: 20px;
 #middleTwoCon{
 color: red;
 background-color: #F1F1F1;
-height: 250px;
+height: 550px;
 width: 1280px;
 position: relative;
+font-family: Charcoal;
+font-size: 40px;
+}
+
+#googleMap
+{
+width: 70%;
+height: 400px;
+background-color:#CCC;
+top: 60px;
+position:relative;
+float: left;
+left:15%;
+border: 2px solid black;
+border-radius: 5px;
+box-shadow: 10px 10px 5px #888888;
 }
 #middleThree{
 color: red;
@@ -235,8 +247,6 @@ background-color: #F1F1F1;
 position: relative;
 float: left;
 left: 40px;
-border: 2px solid #ff0000;
-border-radius: 5px;
 font-size: 15px;
 top: 20px;
 }
@@ -248,24 +258,29 @@ background-color: #F1F1F1;
 position: relative;
 float: left;
 left: 60px;
-border: 2px solid #ff0000;
-border-radius: 5px;
 font-size: 15px;
 top: 20px;
 }
 
 #problems{
-height: 200px;
-width: 300px;
-background-color: #F1F1F1;
+height: 100px;
+width: 200px;
+background-color: yellow;
 position: relative;
 float: right;
-right: 40px;
+right: 60px;
 border: 2px solid #ff0000;
 border-radius: 5px;
 font-size: 15px;
-top: 20px;
+font-family: Paletino;
+top: 50px;
 }
+
+#scroll{
+width: 100%;
+height:1px;
+}
+
 
 
 
@@ -362,17 +377,6 @@ background-image: url("../Images/phoneicon.png");
 cursor: pointer;
 }
 
-#loginicon {
-height: 30px;
-width: 30px;
-position: relative;
-float: right;
-right: 75px;
-bottom: 85px;
-background-image: url("../Images/loginicon.png");
-cursor: pointer;
-}
-
 
 #paypalicon{
 height: 30px;
@@ -413,7 +417,6 @@ right: 155px;
 bottom: 85px;
 cursor: pointer;
 }
-
 
 
 

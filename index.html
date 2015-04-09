@@ -35,12 +35,12 @@
 	 
 	
 	</style>
-
+	<script src="jQuery.js"></script>
 </head>
 
 
 <body>
-
+<div id="scroll"> </div>
 <div class="container" >
 	<div class="row">
 		<div class="twelvecol last"id="header">
@@ -54,8 +54,8 @@
 <div class="container">
 	<div class="row">
 		<div class="twelvecol last" id="middleOne">
-			<div id="video" > <center> <p>Video of Product goes here</p> </center> </div>
-			<div id="viddes" > <center> <p> Description of video goes here </p> </center> </div>
+			<div class="sevencol"id="video" > <center> <p>Video of Product goes here</p> </center> </div>
+			<div class="fivecol last" id="viddes" > <center> <p> Description of video goes here </p> </center> </div>
 		</div>
 	</div>
 		
@@ -75,16 +75,48 @@
 	<div class="row">
 		<div class="twelvecol last" id="footer">
 			<p>Footer</p>
-			<div id="footerlogo"> <a href="index.html" target="_self"> <img src="Images/logo footer.png" style="width:100px;height:66px;border:0"> </a></div>
-			
+			<div id="footerlogo"> <a href="#scroll" target="_self"> <img src="Images/logo footer.png" style="width:100px;height:66px;border:0"> </a></div>
+			<script>
+
+								$(function() {
+
+									$('a[href*=#]:not([href=#])').click(function() {
+
+									if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+										var target = $(this.hash);
+
+									target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	
+									if (target.length) {
+
+										$('html,body').animate({
+
+										scrollTop: target.offset().top
+
+									}, 900);
+
+									return false;
+
+										}
+
+									}
+
+							});
+
+						});
+
+					</script>
+
+					
 			<div id="fbicon" > <a href="https://www.facebook.com" target="_self"> <img src="Images/fbicon.png" style="width:30px;height:30px;border:0"> </a>  </div>
 			<div id="twittericon" > <a href="https://twitter.com" target="_self"> <img src="Images/twittericon.png" style="width:30px;height:30px;border:0"> </a>  </div>
 			<div id="instagramicon" > <a href="https://instagram.com" target="_self"> <img src="Images/instagramicon.png" style="width:30px;height:30px;border:0"> </a> </div>
-			<div id="mapicon" > <a href="contact.html" target="_self">  </div>
-			<div id="mailicon" > <a href="contact.html" target="_self">  </div>
-			<div id="questionsicon" > <a href="contact.html" target="_self"> </a></div>
-			<div id="phoneicon" > <a href="contact.html" target="_self"> </div>
-			<div id="loginicon" ></div>
+			<div id="mapicon" > <a href="contact.html" target="_self"> <img src="Images/mapicon.png" style="width:30px;height:30px;border:0"> </a>  </div>
+			<div id="mailicon" > <a href="contact.html" target="_self"> <img src="Images/mailicon.png" style="width:30px;height:30px;border:0"> </a>  </div>
+			<div id="questionsicon" > <a href="contact.html" target="_self"> <img src="Images/questionmarkicon.png" style="width:30px;height:30px;border:0"> </a></div>
+			<div id="phoneicon" > <a href="contact.html" target="_self"> <img src="Images/phoneicon.png" style="width:30px;height:30px;border:0"> </a> </div>
+
 			
 			<div id="paypalicon" > <a href="shopping.html" target="_self"> <img src="Images/paypalicon.png" style="width:30px;height:30px;border:0"> </a> </div>
 			<div id="mastercardicon" > <a href="shopping.html" target="_self"> <img src="Images/mastercardicon.png" style="width:30px;height:30px;border:0"> </a> </div>
