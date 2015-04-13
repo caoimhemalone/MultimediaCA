@@ -1,0 +1,35 @@
+.colorme {color:red;}
+.nav-bar > li:hover, .nav-bar > li a:hover  { color: red;}
+.nav-bar > li.active > a { }
+ul.flyout li a:hover, .nav-bar li ul li a:hover {color:red;}
+.flyout {border-top:2px solid red;}
+.sectiontitle {border-left: 4px solid red;}
+::-moz-selection{background:red;color:#fff;}
+::selection{background:red;color:#fff;}
+.ca-menu li:hover .ca-main {color: red;}
+.topborder { border-top:4px solid red;}
+.readmore {background:red;}
+ #subheader {background: red;border-top: 1px solid red; color: #eee;}
+ #subheader a {color: #eee;}
+ #subheader a:hover {color: #fff;}
+ .readmore {background:red;}
+ #testimonials blockquote cite {color:red;}
+ .tags {background:#333;}
+ ul.pagination li.current a {background: red;}
+.saymore {color:red;}
+.submit {background:red;} 
+dl.tabs dd.active { border-bottom: 3px solid red;}
+ul.accordion > li.active {border-top: 3px solid red;}
+div.alert-box.default { background-color: red;}
+.slide {	margin: 0;	padding: 0;	border-top: solid 4px red;}
+.btn-slide {	background:red url(../../images/plus.png) no-repeat;}
+.btn-slide.active { background: red url(../../images/minus.png) no-repeat;}
+#footer {border-top:red 4px solid;}
+.back-top a:hover{background-color: red;}
+.sf-shadow ul {border-top:2px solid red;}
+.panel {border-left:4px solid red;}
+.colorbackground {background:red;}
+a.projectdetail { background: red;opacity:0.8;}
+a.projectdetail:hover { background: red;opacity:1.0;}
+#testimonials {border-left: solid 6px red;}
+.ei-title h2{background:red;}
