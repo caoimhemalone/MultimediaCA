@@ -815,16 +815,17 @@ a:focus { outline: none }
 .tweetarea { background: #f8f8f8 url(../images/div.png) repeat-x; margin-top: 20px; }
 .tweettext { padding: 20px 0px; margin-bottom: -37px; }
 .social { display: inline-block; cursor: pointer; width: 32px; height: 32px; margin-right: 5px; }
-.facebook { background: url(../images/socialpack/facebook.png) }
-.facebook:hover { background: url(../images/socialpack/facebooka.png) }
-.twitter { background: url(../images/socialpack/twitter.png) }
-.twitter:hover { background: url(../images/socialpack/twittera.png) }
-.dribbble { background: url(../images/socialpack/dribbble.png) }
-.dribbble:hover { background: url(../images/socialpack/dribbblea.png) }
-.deviantart { background: url(../images/socialpack/deviantart.png) }
-.deviantart:hover { background: url(../images/socialpack/deviantarta.png) }
-.flickr { background: url(../images/socialpack/flickr.png) }
-.flickr:hover { background: url(../images/socialpack/flickra.png) }
+.facebook { background: url(../images/socialpack/fbicon.png) }
+.facebook:hover { background: url(../images/socialpack/fbicon.png) }
+.twitter { background: url(../images/socialpack/twittericon.png) }
+.twitter:hover { background: url(../images/socialpack/twittericon.png) }
+.dribbble { background: url(../images/socialpack/mapicon.png) }
+.dribbble:hover { background: url(../images/socialpack/mapicon.png) }
+.deviantart { background: url(../images/socialpack/instagramicon.png) }
+.deviantart:hover { background: url(../images/socialpack/instagramicon.png) }
+.flickr { background: url(../images/socialpack/phoneicon.png) }
+.flickr:hover { background: url(../images/socialpack/phoneicon.png) }
+.footerlogo{ background: url(../images/logo footer.png) display: inline-block; cursor: pointer; width: 66px; height: 100px; margin-right: 5px; }
 .newsletter { width: 250px !important }
 .back-top-wrapper { width: 100%; position: absolute; overflow: hidden; height: 50px; display: block; }
 .back-top { bottom: 55px; right: 20px; margin-bottom: 0; display: block; position: fixed; display: scroll; display: none; }
@@ -867,3 +868,52 @@ a:focus { outline: none }
 
 .optionsbutton {position:fixed;top:250px;right:-4px;border-radius:0px;z-index:100;background: #eee; border: 1px solid #aaa; border-top: 1px solid #ccc; border-left: 1px solid #ccc; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; color: #444; display: inline-block; font-size: 11px; font-weight: bold; text-decoration: none; text-shadow: 0 1px rgba(255,255,255,.75); cursor: pointer; margin-bottom: 20px; line-height: normal; padding: 8px 10px; font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;}
 .optionscolor {width:20px;height:20px;border:1px solid #fff; float:left;}
+
+#scroll{
+width: 100%;
+height:1px;
+}
+
+#paypalicon{
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 125px;
+bottom: 85px;
+cursor: pointer;
+top: 5px;
+}
+
+#mastercardicon {
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 135px;
+bottom: 85px;
+cursor: pointer;
+top: 5px;
+}
+
+#visaicon {
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 145px;
+bottom: 85px;
+cursor: pointer;
+top: 5px;
+}
+
+#shoppingicon {
+height: 30px;
+width: 30px;
+position: relative;
+float: right;
+right: 155px;
+bottom: 85px;
+cursor: pointer;
+top: 10px;
+}
