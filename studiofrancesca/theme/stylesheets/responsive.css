@@ -233,6 +233,12 @@ MAX-WITH 480
     #testimonials blockquote{height:260px !important;}
 	.noslide h3 {padding:0px;}
 	.ca-menu li {width:100%;float:none;}
+	.newsmargin{float: none;}
+	#paypalicon{overflow:hidden;}
+	#mastercardicon{overflow:hidden;}
+	#shoppingcarticon{overflow:hidden;}
+	#visaicon{overflow:hidden;}
+	.features{width:100%; float:none;}
 }
 
 
@@ -241,6 +247,8 @@ SUPERFISH
 *************************************************************************************/
 @media screen and (max-width: 600px) {
 	#nav-wrap { position: relative;}
+	#footer{overflow: hidden;}
+	
 	#menu-icon {background: url("../img/menu-icon.png") no-repeat scroll 10px center #333; color: #fff; cursor: pointer; display: block; height: 40px; padding: 12px 10px 15px 26px;}
 	#menu-icon:hover {}
 	#menu-icon.active {background-color: #333;}
@@ -257,6 +265,12 @@ SUPERFISH
 	.sf-menu ul li { margin: 3px 0 3px 15px;}
     .nav-bar > li > a {color:#fff !important;}	
 	.fitcarousel {width:81%;overflow:hidden;}
+	.newsmargin{float:none;}
+	#paypalicon{overflow:hidden;}
+	#mastercardicon{overflow:hidden;}
+	#shoppingcarticon{overflow:hidden;}
+	#visaicon{overflow:hidden;}
+	.features{width:100%; float:none;}
 }
  
 @media screen and (min-width: 600px) { 
@@ -274,4 +288,10 @@ MAX-WIDTH 240
 h1 {font-size:20px;}
 #testimonials {height:250px !Important;}
 .image_carousel {overflow:hidden;}
+.newsmargin{overflow:hidden;}
+	#paypalicon{overflow:hidden;}
+	#mastercardicon{overflow:hidden;}
+	#shoppingcarticon{overflow:hidden;}
+	#visaicon{overflow:hidden;}
+	.features{width:100%; float:none;}
 }
