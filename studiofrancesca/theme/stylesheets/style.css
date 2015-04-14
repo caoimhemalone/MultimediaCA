@@ -783,6 +783,8 @@ a:focus { outline: none }
 .sectiontitle h4 { font-size: 23px; background:#fff; display: inline; padding-right: 10px; padding-left: 10px; }
 .centersectiontitle { background: url(../images/dots.gif) repeat-x scroll 0 0 transparent; background-position: center; margin: 10px 0 25px; min-height: 20px; text-align: center; }
 .centersectiontitle h4 { font-size: 23px; background: #fff; display: inline; padding-right: 10px; padding-left: 10px; }
+.centersectionvideo { background: url(../images/dots.gif) repeat-x scroll 0 0 transparent; background-position: center; margin: 10px 0 25px; min-height: 50px; text-align: center; }
+.centersectionvideo h4 { font-size: 23px; background: #fff; display: inline; padding-right: 10px; padding-left: 10px; }
 .wrappic { border: 1px solid #CCCCCC; padding: 2px; }
 .wrappic:hover { border: 1px solid #CCCCCC; padding: 2px; background: url(../images/wraphover.png) repeat !important; }
 .readmore,a.readmore { cursor: pointer; border: 0px; color: #fff; padding: 6px 10px; display: inline; -webkit-transition: background-color 300ms linear; -moz-transition: background-color 300ms linear; -o-transition: background-color 300ms linear; -ms-transition: background-color 300ms linear; transition: background-color 300ms linear; }
@@ -810,13 +812,16 @@ a:focus { outline: none }
 .tweet_list .tweet_avatar { padding-right: .5em; float: left; }
 .tweet_list .tweet_avatar img { vertical-align: middle }
 .twoot { padding-top: 3em }
+.map{cursor: pointer;}
+.phone{cursor: pointer;}
+.instagram{cursor: pointer;}
+.twitter{cursor: pointer;}
+.facebook{cursor: pointer;}
 .query { margin-bottom: 2em }
 .tweet_time { margin-right: 7px }
 .tweetarea { background: #f8f8f8 url(../images/div.png) repeat-x; margin-top: 20px; }
 .tweettext { padding: 20px 0px; margin-bottom: -37px; }
 .social { display: inline-block; cursor: pointer; width: 32px; height: 32px; margin-right: 5px; }
-.twitter { background: url(../images/socialpack/twittericon.png) }
-.twitter:hover { background: url(../images/socialpack/twittericon.png) }
 .footerlogo{ background: url(../images/logo footer.png) display: inline-block; cursor: pointer; width: 66px; height: 100px; margin-right: 5px; }
 .newsletter { width: 250px !important }
 .back-top-wrapper { width: 100%; position: absolute; overflow: hidden; height: 50px; display: block; }
