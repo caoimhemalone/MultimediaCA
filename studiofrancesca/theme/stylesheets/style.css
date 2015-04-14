@@ -815,16 +815,8 @@ a:focus { outline: none }
 .tweetarea { background: #f8f8f8 url(../images/div.png) repeat-x; margin-top: 20px; }
 .tweettext { padding: 20px 0px; margin-bottom: -37px; }
 .social { display: inline-block; cursor: pointer; width: 32px; height: 32px; margin-right: 5px; }
-.facebook { background: url(../images/socialpack/fbicon.png) }
-.facebook:hover { background: url(../images/socialpack/fbicon.png) }
 .twitter { background: url(../images/socialpack/twittericon.png) }
 .twitter:hover { background: url(../images/socialpack/twittericon.png) }
-.dribbble { background: url(../images/socialpack/mapicon.png) }
-.dribbble:hover { background: url(../images/socialpack/mapicon.png) }
-.deviantart { background: url(../images/socialpack/instagramicon.png) }
-.deviantart:hover { background: url(../images/socialpack/instagramicon.png) }
-.flickr { background: url(../images/socialpack/phoneicon.png) }
-.flickr:hover { background: url(../images/socialpack/phoneicon.png) }
 .footerlogo{ background: url(../images/logo footer.png) display: inline-block; cursor: pointer; width: 66px; height: 100px; margin-right: 5px; }
 .newsletter { width: 250px !important }
 .back-top-wrapper { width: 100%; position: absolute; overflow: hidden; height: 50px; display: block; }
